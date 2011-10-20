@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface HelloWorldViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *txt_name;
+@property (weak, nonatomic) IBOutlet UIButton *bt_hello;
+@property (weak, nonatomic) IBOutlet UILabel *lb_text;
+
+- (IBAction)change_inside:(id)sender;
 
 @end
